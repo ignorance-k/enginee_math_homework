@@ -10,6 +10,7 @@ batch_size, num_steps = 32, 35
 train_iter, vocab = d2l.load_data_time_machine(batch_size, num_steps)
 
 
+
 # X = torch.arange(10).reshape((2, 5))
 # print(F.one_hot(X.T, 28))
 
